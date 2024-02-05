@@ -3,10 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css" /> 
     <link rel="stylesheet" type="text/css" href="style.css" /> 
     <title>TOP Form Project</title>
 </head>
 <body>
-    
+    <div class="leftPart">
+        <div class="logoBar">
+            <img src="assets/odin-lined.png" />
+            <h1>ODIN</h1>
+        </div>
+        <div class="attributionBar">
+            Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a>
+        </div>
+    </div>
+    <div class="rightPart">
+        <div class="upperContent">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br />
+                Sign up <em>now</em> to get started.</p>
+            <span><p>You <em>know</em> you want to.</p></span>
+        </div>
+        <div class="buttomContent">
+            <h2>Let's do this!</h2>
+            <form action="#" method="post">
+                <div class="upperForm">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" />
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" />
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" />
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber" />
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" />
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" />
+                </div>
+                <div class="lowerForm">
+                    <button>Create Account</button>
+                    <span>Already have an account? <a href="#">Log In</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Norse Bold'; /* Give your font a name */
+    src: url('assets/Norse-Bold.otf') format('opentype'); /* Specify the path to your font file and its format */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+   display: flex;
+}
+.leftPart{
+    position: relative;
+    min-height: 100vh;
+    width: 40%;
+    background: url('assets/fernBG.jpg') center/cover no-repeat;
+
+}
+.leftPart .logoBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    height: 110px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+.leftPart .logoBar h1{
+    font: 5rem/5rem 'Norse Bold', sans-serif;
+}
+.leftPart .logoBar img{
+    height: 100%;
+    max-height: 500px;
+    width: auto;
+}
+.leftPart .attributionBar{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font: .7rem/.7rem 'Arial', sans-serif;
+}
+.leftPart .attributionBar a{
+    color: #fff;
+}
+
+
+.rightPart{
+    min-height: 100vh;
+    width: 60%;
+    box-sizing: border-box;
+    background-color: #f9fafb;
+    font: 1.5rem/1.8rem 'Helvetica', sans-serif;
+    color: #1f1f1f;
+}
+.rightPart .upperContent{
+    padding: 120px 40px 40px 40px;
+}
+.rightPart p{
+    margin: 20px 0;
+    font-weight: 600;
+}
+.rightPart em{
+    font-style: italic;
+}
+.rightPart form{
+    width: 100%;
+    background-color: #fff;
+}
