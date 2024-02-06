@@ -59,6 +59,10 @@ body{
 .rightPart .upperContent{
     padding: 120px 40px 40px 40px;
 }
+.rightPart h2{
+    font: 1.6rem/2rem 'Helvetica', sans-serif;
+    font-weight: 600;
+}
 .rightPart p{
     margin: 20px 0;
     font-weight: 600;
@@ -68,5 +72,32 @@ body{
 }
 .rightPart form{
     width: 100%;
+}
+.rightPart form .upperForm{
+    padding: 10px 40px;
     background-color: #fff;
+    box-shadow: 0px 10px 15px 10px rgba(0,0,0,0.1);
+}
+.rightPart form .lowerForm{
+    padding: 10px 40px;
+    font: 1.25rem/1.5rem 'Helvetica', sans-serif;
+}
+.rightPart form label{
+    font: 1rem/1.10rem 'Helvetica', sans-serif;
+}
+.rightPart form button{
+    display: block;
+    border: 0;
+    border-radius: 10px;
+    margin: 30px 0;
+    padding: 15px 40px;
+    font: 1.25rem/1.5rem 'Helvetica', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #596D48;
+}
+.rightPart form a{
+    font-weight: 600;
+    color: #596D48;
+    text-decoration: none;
 }
