@@ -25,42 +25,44 @@
         </div>
         <div class="buttomContent">
             
-            <form action="#" method="post">
+            <form action="#" method="post" id="createAccountForm">
                 <div class="upperForm">
                     <h2>Let's do this!</h2>
                     <div class="formContent">
                         <div class="infoHolder">
                             <label for="firstName">First Name</label>
-                            <input type="text" name="firstName" id="firstName" />
+                            <input type="text" name="firstName" id="firstName" required/>
                         </div>
                         <div class="infoHolder">
                             <label for="lastName">Last Name</label>
-                            <input type="text" name="lastName" id="lastName" />
+                            <input type="text" name="lastName" id="lastName" required/>
                         </div>
                         <div class="infoHolder">
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" />
+                            <input type="email" name="email" id="email" required/>
                         </div>
                         <div class="infoHolder">
                             <label for="phoneNumber">Phone Number</label>
-                            <input type="tel" name="phoneNumber" id="phoneNumber" />
+                            <input type="tel" name="phoneNumber" id="phoneNumber" required/>
                         </div>
                         <div class="infoHolder">
                             <label for="password">Password</label>
-                            <input type="password" name="password" id="password" />
+                            <input type="password" name="password" id="password" required/>
+                            <span id="errorInfo"></span>
                         </div>
                         <div class="infoHolder">
                             <label for="confirmPassword">Confirm Password</label>
-                            <input type="password" name="confirmPassword" id="confirmPassword" />
+                            <input type="password" name="confirmPassword" id="confirmPassword" required/>
                         </div>
                     </div>
                 </div>
                 <div class="lowerForm">
-                    <button>Create Account</button>
+                    <button id="submitButton">Create Account</button>
                     <span>Already have an account? <a href="#">Log In</a></span>
                 </div>
             </form>
         </div>
     </div>
 </body>
+<script src="validate.js" defer></script>
 </html>
